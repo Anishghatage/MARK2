@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+int fun(int,int);
 int main()
 {
- int a=2,b=3,c;
-  c=a+b;
-  printf("sum is %d",c);
+    fun(3,6);
 }
+int fun(int a,int b)
+{
+  printf("sum is = %d",a+b);
+ return 0;
+}
+
